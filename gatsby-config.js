@@ -3,4 +3,5 @@ module.exports = {
     title: "placed-app-test",
   },
   plugins: [],
+  plugins: ["gatsby-plugin-postcss"],
 };
