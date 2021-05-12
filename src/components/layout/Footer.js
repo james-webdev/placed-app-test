@@ -10,19 +10,19 @@ const Footer = () => (
             <div className="sm:mt-1 text-small flex flex-col">
               <a
                 className="footergrey hover:text-gray-200"
-                href="https://shop.work.tools/"
+                href=""
               >
                 Visit our online store
               </a>
               <a
                 className="footergrey hover:text-gray-200"
-                href="https://shop.work.tools/collections/apple"
+                href=""
               >
                 Apple Mac Leasing
               </a>
               <a
                 className="footergrey hover:text-gray-200"
-                href="https://shop.work.tools/collections/microsoft"
+                href=""
               >
                 Microsoft Surface Leasing
               </a>

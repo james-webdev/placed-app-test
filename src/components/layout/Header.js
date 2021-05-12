@@ -9,22 +9,23 @@ const Header = () => (
       </div>
       <div className="flex mt-4 sm:mt-0">
         <Link className="px-4" href="#features">
-          Features
+          Blog
         </Link>
         <Link className="px-4" href="#pricing">
-          Pricing
+          Find a job
         </Link>
         <Link className="px-4" href="#testimonials">
-          Testimonials
+          Hire staff
+        </Link>
+        <Link className="px-4" href="#testimonials">
+          Features
+        </Link>
+        <Link className="px-4" href="#testimonials">
+          Login
         </Link>
       </div>
-      <div className="hidden md:block">
-        <button
-          onClick="https://download.worktools.link/GuardianInstaller.exe"
-          className="text-sm"
-        >
-          Download Now
-        </button>
+      <div className="hidden yellow rounded-lg p-2 md:block">
+        <button className="text-sm">Book a Demo</button>
       </div>
     </div>
   </header>
