@@ -33,7 +33,7 @@ class ActiveCampaignForm extends Component {
     const { formSubmitted } = this.state;
 
     return (
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center w-auto">
         <div className="border border-8 border-gray-300 rounded">
           {formSubmitted && (
             <p>
@@ -44,7 +44,10 @@ class ActiveCampaignForm extends Component {
           )}
 
           {!formSubmitted && (
-            <form className="flex items-center" onSubmit={this.onSubmit}>
+            <form
+              className="flex flex-col sm:flex sm:flex-row items-center"
+              onSubmit={this.onSubmit}
+            >
               <input type="hidden" name="u" value="1" />
               <input type="hidden" name="f" value="1" />
               <input type="hidden" name="s" />
@@ -54,15 +57,18 @@ class ActiveCampaignForm extends Component {
               <input type="hidden" name="v" value="2" />
 
               <input
-                className="p-2"
+                className="p-2 text-center"
                 type="text"
                 name="email"
                 placeholder="Your Email Address"
                 required
               />
-              <div className="text-gray-300"> | </div>
+              <div className="text-gray-300 hidden sm:block">
+                {" "}
+                <p className=""> |</p>{" "}
+              </div>
               <input
-                className="p-2"
+                className="p-2 text-center"
                 type="text"
                 name="name"
                 placeholder="Your Name"

@@ -1,11 +1,14 @@
-
 .yellow {
-
   background: #fee100;
-
-
 }
 
+.yellowtext {
+  color: #fee100;
+}
+
+/* body {
+  overflow-x: hidden !important;
+} */
 
 @tailwind base;
 @tailwind components;
