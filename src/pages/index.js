@@ -10,7 +10,7 @@ const IndexPage = () => {
     <main>
       <title>Placed-App</title>
       <Layout>
-        <div className="mb-40 mt-20">
+        <div className="mb-10 sm:mb-40 mt-20">
           <CompyFetch />
         </div>
         <div>
@@ -19,7 +19,7 @@ const IndexPage = () => {
         <div>
           <Gallery />
         </div>
-        <div>
+        <div className="ml-10 mr-10">
           <Olajide />
         </div>
       </Layout>

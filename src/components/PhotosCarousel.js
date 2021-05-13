@@ -14,7 +14,7 @@ const PhotosCarousel = () => {
 
   return (
     <>
-      <div className="border border-black grid grid-cols-3 gap-1 rounded">
+      <div className="border border-black grid grid-cols-1 sm:grid-cols-3 gap-1 rounded justify-center items-center content-center justify-items-center">
         {photos.map((item, index) => (
           <img className="p-1 w-60" style={{'borderRadius':'25px'}} src={item} />
         ))}

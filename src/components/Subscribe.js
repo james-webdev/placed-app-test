@@ -75,7 +75,7 @@ class ActiveCampaignForm extends Component {
                 required
               />
               <input
-                className="yellow p-2 rounded"
+                className="yellow p-2 rounded text-center"
                 type="submit"
                 value="Follow"
               />

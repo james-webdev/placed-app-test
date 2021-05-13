@@ -14,11 +14,14 @@ const Gallery = () => {
   }, []);
 
   return (
-    <div className="border border-black p-4 flex flex-col md:flex-row">
-      <div className="border border-black w-1/3 font-sans">
-        <div className="p-4" dangerouslySetInnerHTML={{ __html: `${details}` }} />
+    <div className="p-4 flex flex-col md:flex-row">
+      <div className="w-full sm:w-1/3 font-sans">
+        <div
+          className="p-4"
+          dangerouslySetInnerHTML={{ __html: `${details}` }}
+        />
       </div>
-      <div className="border border-black w-2/3">
+      <div className="w-full sm:w-2/3">
         <PhotosCarousel />
       </div>
     </div>

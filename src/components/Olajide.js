@@ -14,20 +14,22 @@ const Olajide = () => {
 
   return (
     <>
-      <div className="border border-black flex flex-col justify-center items-center sm:flex sm:flex-row mt-10 mb-10">
+      <div className="flex flex-col justify-center items-center sm:flex sm:flex-row mt-10 mb-10">
         <div
-          className="border border-black p-2 h-96 w-96 flex flex-col justify-center items-center"
+          className="p-2 h-96 w-96 flex flex-col justify-center items-center"
           style={{
             backgroundImage: `url(${OlajidePhoto.footer_photo})`,
             backgroundSize: "100%",
             objectFit: "cover",
             borderRadius: "25px",
+            marginLeft: "30px",
+            marginRight: "30px",
           }}
         >
           <p className="text-white text-2xl font-bold">Olajide Alabi</p>
           <p className="text-white">Diversity & Inclusion Specialist</p>
         </div>
-        <div className="rounded bg-gray-200 m-3 w-1/2">
+        <div className="rounded bg-gray-200 m-3 w-full ml-10 mr-10 sm:w-1/2">
           <p className="p-4">
             As a Black, African, Gay man, I want Inclusion to be a right and not
             a privilege for a select few. For people not to be tolerated as
