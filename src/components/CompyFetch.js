@@ -19,7 +19,7 @@ const CompyFetch = () => {
     <>
       <div className="flex flex-col justify-center items-center relative">
         {" "}
-        <div className="absolute -z-1 hidden md:block">
+        <div className="absolute -z-1 hidden lg:block">
           <TopImage />
         </div>
         <div className="z-10">
@@ -34,12 +34,12 @@ const CompyFetch = () => {
         </div>
         <div className="z-10">
           <p>
-            <h1 className="text-2xl z-10 text-black sm:text-white font-bold">
+            <h1 className="text-2xl z-10 text-black sm:text-white font-bold font-sans">
               Gourmet Burger Kitchen
             </h1>
           </p>
           <p>
-            <h5 className="text-black text-center sm:text-white">
+            <h5 className="text-black text-center sm:text-white font-sans">
               Fine Dining Michelin Star restaurant
             </h5>
           </p>

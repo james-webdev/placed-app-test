@@ -14,8 +14,8 @@ const Gallery = () => {
   }, []);
 
   return (
-    <div className="p-4 flex flex-col md:flex-row">
-      <div className="w-full sm:w-1/3 font-sans">
+    <div className="p-4 flex flex-col md:flex-row -mt-10">
+      <div className="w-full sm:w-1/3 mt-10 font-sans">
         <div
           className="p-4"
           dangerouslySetInnerHTML={{ __html: `${details}` }}

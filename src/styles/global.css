@@ -6,9 +6,13 @@
   color: #fee100;
 }
 
-/* body {
+.footercolour {
+  background-color: #333333;
+}
+
+body {
   overflow-x: hidden !important;
-} */
+}
 
 @tailwind base;
 @tailwind components;

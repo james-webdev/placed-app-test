@@ -1,4 +1,5 @@
 import * as React from "react";
+import Benefits from "../components/Benefits";
 import CompyFetch from "../components/CompyFetch";
 import ExclusiveJobOffers from "../components/ExclusiveJobOffers";
 import Gallery from "../components/Gallery";
@@ -16,11 +17,14 @@ const IndexPage = () => {
         <div>
           <ExclusiveJobOffers />
         </div>
-        <div>
+        <div className="ml-5 sm:ml-20 mr-5 sm:mr-20">
           <Gallery />
         </div>
         <div className="ml-10 mr-10">
           <Olajide />
+        </div>
+        <div className="ml-5 sm:ml-20 mr-5 sm:mr-20">
+          <Benefits />
         </div>
       </Layout>
     </main>

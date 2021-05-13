@@ -2,7 +2,13 @@ import * as React from "react";
 
 function Logo(props) {
   return (
-    <svg width={190} height={54} viewBox="0 0 190 54" fill="none" {...props}>
+    <svg
+      width={190}
+      height={54}
+      viewBox="0 0 190 54"
+      fill="none"
+      {...props}
+    >
       <path
         fillRule="evenodd"
         clipRule="evenodd"

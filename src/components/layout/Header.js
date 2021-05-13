@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../svgs/LogoSvg";
-// import { Link } from "gatsby";
+import { Link } from "gatsby";
 
 const Header = () => (
   <header className="rounded sticky top-0 z-20 bg-white shadow">
@@ -10,23 +10,23 @@ const Header = () => (
           <Logo />{" "}
         </div>
       </div>
-      {/* <div className="flex mt-4 sm:mt-0">
-        <Link className="px-4" href="#features">
+       <div className="flex mt-4 sm:mt-0">
+        <Link className="px-4 font-sans" href="#features">
           Blog
         </Link>
-        <Link className="px-4" href="#pricing">
+        <Link className="px-4 font-sans" href="#pricing">
           Find a job
         </Link>
-        <Link className="px-4" href="#testimonials">
+        <Link className="px-4 font-sans" href="#testimonials">
           Hire staff
         </Link>
-        <Link className="px-4" href="#testimonials">
+        <Link className="px-4 font-sans" href="#testimonials">
           Features
         </Link>
-        <Link className="px-4" href="#testimonials">
+        <Link className="px-4 font-sans" href="#testimonials">
           Login
         </Link>
-      </div> */}
+      </div> 
       <div className="hidden yellow rounded-lg p-2 md:block">
         <button className="text-sm font-sans">Book a Demo</button>
       </div>
