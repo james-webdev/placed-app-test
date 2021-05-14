@@ -2,7 +2,7 @@ import React from "react";
 
 function OthersSVG() {
   return (
-    <svg width="372" height="318" fill="none" viewBox="0 0 372 318">
+    <svg width="300" height="318" fill="none" viewBox="0 0 372 318">
       <rect width="372" height="318" fill="#fff" rx="16"></rect>
       <path
         fill="#000"

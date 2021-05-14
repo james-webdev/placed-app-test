@@ -6,6 +6,10 @@
   color: #fee100;
 }
 
+.yellowborder {
+  border: #fee100 solid 2px;
+}
+
 .footercolour {
   background-color: #333333;
 }
@@ -21,6 +25,16 @@ body {
 @media only screen and (max-width: 410px) {
   .samsung {
     width: 80% !important;
+  }
+
+  /* .hideme {
+    display: none !important;
+  } */
+}
+
+@media only screen and (max-width: 600px) {
+  .burgerbg {
+    background-image: ;
   }
 
   /* .hideme {

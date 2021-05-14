@@ -14,28 +14,28 @@ const IndexPage = () => {
     <main>
       <title>Placed-App</title>
       <Layout>
-        <div className="border border-black mb-10 sm:mb-40 mt-20">
+        <div className="sm:mb-40 sm:mt-20">
           <CompyFetch />
         </div>
-        <div className="border border-black">
+        <div className="">
           <ExclusiveJobOffers />
         </div>
-        <div className="border border-black ml-5 sm:ml-20 mr-5 sm:mr-20">
+        <div className="ml-5 sm:ml-20 mr-5 sm:mr-20">
           <Gallery />
         </div>
-        <div className="border border-black ml-10 mr-10">
+        <div className="ml-10 mr-10">
           <Olajide />
         </div>
-        <div className="border border-black ml-5 sm:ml-20 mr-5 sm:mr-20">
+        <div className="ml-5 sm:ml-20 mr-5 sm:mr-20">
           <Benefits />
         </div>
-        <div className="border border-black">
+        <div className="">
           <Others />
         </div>
-        <div className="border border-black">
+        <div className="">
           <Related />
         </div>
-        <div className="border border-black">
+        <div className="">
           <Ready />
         </div>
       </Layout>

@@ -17,24 +17,24 @@ const CompyFetch = () => {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center relative">
+      <div className="bg-gradient-to-r from-yellow-400 via-red-500 to-yellow-700 sm:bg-none flex flex-col justify-center items-center relative">
         {" "}
         <div className="absolute -z-1 hidden lg:block">
           <TopImage />
         </div>
-        <div className="z-10">
+        <div className="z-10 mt-10">
           <img
             style={{
               borderRadius: "25px",
             }}
-            className="w-28"
+            className="w-28 yellowborder"
             src={Logo.logo}
             alt=""
           />
         </div>
         <div className="z-10">
           <p>
-            <h1 className="text-2xl z-10 text-black sm:text-white font-bold font-sans">
+            <h1 className="text-2xl z-10 text-black sm:text-white font-bold font-sans mt-5">
               Gourmet Burger Kitchen
             </h1>
           </p>
