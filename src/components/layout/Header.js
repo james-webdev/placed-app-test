@@ -11,19 +11,19 @@ const Header = () => (
         </div>
       </div>
        <div className="flex mt-4 sm:mt-0">
-        <Link className="px-4 font-sans" href="#features">
+        <Link className="hidden md:block px-4 font-sans font-semibold" href="#">
           Blog
         </Link>
-        <Link className="px-4 font-sans" href="#pricing">
+        <Link className="px-4 font-sans font-semibold" href="">
           Find a job
         </Link>
-        <Link className="px-4 font-sans" href="#testimonials">
+        <Link className="hidden md:block px-4 font-sans font-semibold" href="#">
           Hire staff
         </Link>
-        <Link className="px-4 font-sans" href="#testimonials">
+        <Link className="px-4 font-sans font-semibold" href="#">
           Features
         </Link>
-        <Link className="px-4 font-sans" href="#testimonials">
+        <Link className="px-4 font-sans font-semibold" href="#">
           Login
         </Link>
       </div> 

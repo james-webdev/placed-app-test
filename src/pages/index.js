@@ -5,6 +5,9 @@ import ExclusiveJobOffers from "../components/ExclusiveJobOffers";
 import Gallery from "../components/Gallery";
 import Layout from "../components/layout/Layout";
 import Olajide from "../components/Olajide";
+import Others from "../components/Others";
+import Ready from "../components/Ready";
+import Related from "../components/Related";
 
 const IndexPage = () => {
   return (
@@ -25,6 +28,15 @@ const IndexPage = () => {
         </div>
         <div className="ml-5 sm:ml-20 mr-5 sm:mr-20">
           <Benefits />
+        </div>
+        <div>
+          <Others />
+        </div>
+        <div>
+          <Related />
+        </div>
+        <div>
+          <Ready />
         </div>
       </Layout>
     </main>

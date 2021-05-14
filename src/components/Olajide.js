@@ -34,8 +34,8 @@ const Olajide = () => {
         <div className="hidden lg:block lg:absolute lg:z-10 lg:top-8">
           <Quote />
         </div>
-        <div className="rounded bg-gray-200 m-3 w-full ml-10 mr-10 sm:w-1/2 sm:-ml-8 z-0">
-          <p className="p-4 font-sans">
+        <div className="rounded bg-gray-200 m-3 w-full ml-10 mr-10 sm:w-1/2 sm:-ml-8 z-0  max-w-lg">
+          <p className="p-4 font-sans max-w-lg">
             As a Black, African, Gay man, I want Inclusion to be a right and not
             a privilege for a select few. For people not to be tolerated as
             being different, but accepted. We live in a diverse world and we can

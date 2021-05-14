@@ -23,7 +23,7 @@ const Footer = () => (
               <AppStore />
             </div>
           </div>
-          <div className="flex flex-col mt-1 sm:mt-2 sm:p-4">
+          <div className="flex flex-col mt-1 sm:mt-2 sm:p-4 lg:ml-5 lg:mr-5">
             <h1 className="text-xl text-gray-500">EMPLOYER</h1>
             <div className="sm:mt-1 text-small flex flex-col">
               <a className="hover:text-gray-200 p-1 sm:p-3" href="">
@@ -40,7 +40,7 @@ const Footer = () => (
               </a>
             </div>
           </div>
-          <div className="flex flex-col mt-1 sm:mt-2 sm:p-4">
+          <div className="flex flex-col mt-1 sm:mt-2 sm:p-4 lg:ml-5 lg:mr-5">
             <h1 className="text-xl text-gray-500">JOBSEEKER</h1>
             <div className="sm:mt-1 text-small flex flex-col">
               <a className="hover:text-gray-200 p-1 sm:p-3" href="">
@@ -54,7 +54,7 @@ const Footer = () => (
               </a>
             </div>
           </div>
-          <div className="flex flex-col mt-1 sm:mt-2 sm:p-4">
+          <div className="flex flex-col mt-1 sm:mt-2 sm:p-4 lg:ml-5 lg:mr-5">
             <h1 className="text-xl text-gray-500">COMPANY</h1>
             <div className="sm:mt-1 text-small flex flex-col">
               <a className="hover:text-gray-200 p-1 sm:p-3" href="">
@@ -62,7 +62,7 @@ const Footer = () => (
               </a>
             </div>
           </div>
-          <div className="flex flex-col mt-1 sm:mt-2 sm:p-4">
+          <div className="flex flex-col mt-1 sm:mt-2 sm:p-4 lg:ml-5 lg:mr-5">
             <h1 className="text-xl text-gray-500">LEGAL</h1>
             <div className="sm:mt-1 text-small flex flex-col">
               <a className="hover:text-gray-200 p-1 sm:p-3" href="">
