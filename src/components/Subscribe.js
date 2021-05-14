@@ -34,7 +34,7 @@ class ActiveCampaignForm extends Component {
 
     return (
       <div className="flex justify-center items-center w-auto">
-        <div className="border border-black rounded">
+        <div className="rounded">
           {formSubmitted && (
             <p>
               <strong>THANK YOU</strong> for joining our mailing list!

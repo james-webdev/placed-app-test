@@ -2,7 +2,7 @@ import React from "react";
 
 function Tips() {
   return (
-    <svg width="360" height="91" fill="none" viewBox="0 0 360 91">
+    <svg width="300" height="91" fill="none" viewBox="0 0 360 91">
       <rect width="360" height="91" fill="#E4BCE3" rx="8"></rect>
       <path
         fill="#000"

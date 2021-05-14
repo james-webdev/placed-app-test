@@ -2,7 +2,7 @@ import React from "react";
 
 function Cycle() {
   return (
-    <svg width="360" height="85" fill="none" viewBox="0 0 360 85">
+    <svg width="300" height="85" fill="none" viewBox="0 0 360 85">
       <rect width="360" height="85" fill="#FBBF26" rx="8"></rect>
       <path
         fill="#000"

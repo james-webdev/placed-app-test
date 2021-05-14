@@ -2,7 +2,7 @@ import React from "react";
 
 function Referrals() {
   return (
-    <svg width="360" height="100" fill="none" viewBox="0 0 360 100">
+    <svg width="300" height="100" fill="none" viewBox="0 0 360 100">
       <rect width="360" height="100" fill="#B1DED6" rx="8"></rect>
       <path
         fill="#000"

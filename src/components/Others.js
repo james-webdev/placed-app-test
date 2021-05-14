@@ -5,18 +5,18 @@ import OthersSVG2 from "../svgs/OthersSVG2";
 const Others = () => {
   return (
     <>
-      <div className="yellow pt-20 pb-20 flex flex-col justify-center items-center">
+      <div className="hidden sm:block yellow pt-20 pb-20 flex flex-col justify-center items-center">
         <div className="text-black text-xl font-bold">
           <h1>Others About Us</h1>
         </div>
         <div className="flex flex-col lg:flex-row mt-8 ml-10 mr-10">
-          <div className="p-2">
+          <div className="samsung p-2">
             <OthersSVG />
           </div>
-          <div className="p-2">
+          <div className="samsung p-2">
             <OthersSVG2 />
           </div>
-          <div className="p-2">
+          <div className="samsung p-2">
             <OthersSVG />
           </div>
         </div>

@@ -17,7 +17,7 @@ const Olajide = () => {
     <>
       <div className="flex flex-col justify-center items-center sm:flex sm:flex-row mt-10 mb-10 relative">
         <div
-          className="p-2 h-96 w-96 flex flex-col justify-center items-center"
+          className="samsung p-2 h-96 w-96 flex flex-col justify-center items-center"
           style={{
             backgroundImage: `url(${OlajidePhoto.footer_photo})`,
             backgroundSize: "100%",

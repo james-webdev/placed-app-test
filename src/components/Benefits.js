@@ -38,13 +38,13 @@ const Benefits = () => {
         <div className="hidden lg:block lg:absolute z-0 w-40 sm:left-56">
           <Placed />
         </div>
-        <div className="m-2 z-10">
+        <div className="samsung m-2 z-10">
           <Cycle />
         </div>
-        <div className="m-2 z-10">
+        <div className="samsung m-2 z-10">
           <Referrals />
         </div>
-        <div className="m-2 z-10">
+        <div className="samsung m-2 z-10">
           <Tips />
         </div>
       </div>
