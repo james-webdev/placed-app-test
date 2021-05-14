@@ -75,9 +75,9 @@ class ActiveCampaignForm extends Component {
                 required
               />
               <input
-                className="yellow p-2 pl-3 rounded text-center -ml-1 -z-1"
+                className="yellow p-2 pl-3 rounded text-center mt-1 sm:mt-0 -ml-1 -z-1"
                 type="submit"
-                value="Follow"
+                value="FOLLOW"
               />
             </form>
           )}
