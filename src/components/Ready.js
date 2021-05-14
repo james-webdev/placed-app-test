@@ -24,7 +24,7 @@ const Ready = () => {
           <p className="yellow text-black rounded p-3">START APPLYING</p>
         </button>
       </div>
-      <div className="sm:w-1/3">
+      <div className="sm:w-1/3 mt-5 sm:mt-0">
         <img src={Kitchen} alt="" />
       </div>
     </div>

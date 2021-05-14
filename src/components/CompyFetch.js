@@ -17,7 +17,7 @@ const CompyFetch = () => {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-yellow-300 via-red-400 to-yellow-300 sm:bg-none flex flex-col justify-center items-center relative">
+      <div className="bg-gradient-to-r from-yellow-300 via-red-400 to-yellow-300 lg:bg-none flex flex-col justify-center items-center relative">
         {" "}
         <div className="absolute -z-1 hidden lg:block">
           <TopImage />

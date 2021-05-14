@@ -14,7 +14,7 @@ const IndexPage = () => {
     <main>
       <title>Placed-App</title>
       <Layout>
-        <div className="sm:mb-40 sm:mt-20">
+        <div className="lg:mb-40 lg:mt-20">
           <CompyFetch />
         </div>
         <div className="">
