@@ -1,7 +1,9 @@
 import React from "react";
 import logo from "../../images/placed.png";
-import AppStore from "../../svgs/AppStore";
-import GooglePlay from "../../svgs/GooglePlay";
+import GooglePlay from "../../images/googleplay.png";
+import Apple from "../../images/apple.png";
+// import AppStore from "../../svgs/AppStore";
+// import GooglePlay from "../../svgs/GooglePlay";
 import LogoWhite from "../../svgs/LogoWhite";
 
 const Footer = () => (
@@ -16,14 +18,16 @@ const Footer = () => (
             <div>
               <img className="w-48" src={logo} alt="" />
             </div>
-            <div className="p-1 mt-4">
-              <GooglePlay />
+            <div className="border border-white rounded mt-4 w-40 m-1">
+              {/* <GooglePlay /> */}
+              <img src={GooglePlay} alt=""/>
             </div>
-            <div className="p-1">
-              <AppStore />
+            <div className="border border-white rounded w-40 m-1">
+              <img src={Apple} alt=""/>
+              {/* <AppStore /> */}
             </div>
           </div>
-          <div className="flex flex-col mt-1 sm:mt-2 sm:p-4 lg:ml-5 lg:mr-5">
+          <div className="flex flex-col mt-2 sm:p-4 lg:ml-5 lg:mr-5">
             <h1 className="text-xl text-gray-500">EMPLOYER</h1>
             <div className="sm:mt-1 text-small flex flex-col">
               <a className="hover:text-gray-200 p-1 sm:p-3" href="">
