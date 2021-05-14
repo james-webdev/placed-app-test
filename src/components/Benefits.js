@@ -15,19 +15,19 @@ const Benefits = () => {
           <ul>
             <li className="p-1">
               {" "}
-              • It all started back in 2001 when three Kiwi guys set up the first
-              Gourmet Burger Kitchen in London.{" "}
+              • It all started back in 2001 when three Kiwi guys set up the
+              first Gourmet Burger Kitchen in London.{" "}
             </li>
             <li className="p-1">
-            • Word quickly got around - and soon their fresh, quality burgers
+              • Word quickly got around - and soon their fresh, quality burgers
               served up with a dash of personality and fun were a gigantic hit.
             </li>
             <li className="p-1">
-            • Before long new restaurants started popping up all over the place
-              - and now there’s 76 of them across the country.
+              • Before long new restaurants started popping up all over the
+              place - and now there’s 76 of them across the country.
             </li>
             <li className="p-1">
-            • But you know what we’ve learned along the way? GBK’s success is
+              • But you know what we’ve learned along the way? GBK’s success is
               all about its people. Close-knit teams who love what they do and
               light up the place with laughter.
             </li>
@@ -38,13 +38,13 @@ const Benefits = () => {
         <div className="hidden lg:block lg:absolute z-0 w-40 sm:left-56">
           <Placed />
         </div>
-        <div className="samsung m-2 z-10">
+        <div className="m-2 z-10">
           <Cycle />
         </div>
-        <div className="samsung m-2 z-10">
+        <div className="m-2 z-10">
           <Referrals />
         </div>
-        <div className="samsung m-2 z-10">
+        <div className="m-2 z-10">
           <Tips />
         </div>
       </div>

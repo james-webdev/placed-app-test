@@ -31,7 +31,7 @@ const Olajide = () => {
           <p className="text-white text-2xl font-bold">Olajide Alabi</p>
           <p className="text-white">Diversity & Inclusion Specialist</p>
         </div>
-        <div className="hidden lg:block lg:absolute lg:z-10 lg:top-8">
+        <div className="hidden lg:block lg:absolute lg:z-10 lg:top-6">
           <Quote />
         </div>
         <div className="rounded bg-gray-200 m-3 w-full ml-10 mr-10 sm:w-1/2 sm:-ml-8 z-0  max-w-lg">
