@@ -33,16 +33,16 @@ const CompyFetch = () => {
           />
         </div>
         <div className="z-10">
-          <p>
+          <div>
             <h1 className="text-2xl z-10 text-black sm:text-white font-bold font-sans mt-5">
               Gourmet Burger Kitchen
             </h1>
-          </p>
-          <p>
+          </div>
+          <div>
             <h5 className="text-black text-center sm:text-white font-sans">
               Fine Dining Michelin Star restaurant
             </h5>
-          </p>
+          </div>
         </div>
         <div className="m-5 z-10">
           <Subscribe />
