@@ -7,8 +7,8 @@ import Tips from "../svgs/Tips";
 const Benefits = () => {
   return (
     <div className="flex flex-col sm:flex-row mt-10 mb-10 justify-center items-center">
-      <div className="lg:w-1/2 xl:flex xl:justify-end lg:ml-6">
-        <div className="text-2xl font-bold font-sans ">
+      <div className="lg:w-1/2 2xl:flex 2xl:flex-col 2xl:items-end lg:ml-6">
+        <div className="text-2xl 2xl:flex 2xl:justify-center 2xl:mr-56 font-bold font-sans ">
           <h1>Benefits</h1>
         </div>
         <div className="mt-6 font-sans max-w-xl">
